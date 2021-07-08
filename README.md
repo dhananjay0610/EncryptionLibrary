@@ -19,3 +19,20 @@
  ```
 
 > How to use ?  
+	Create object of this class;
+	
+  UserKeys userKeys= AssymetricEncryption.createUserKeys();
+  
+ UserKeys class have two methods :
+ 1) getPublicKey()
+ 2) getPrivateKey()
+
+ 
+ thus,
+ in order to use this method,just use it using object as follows :
+ 1)byte[] publickey = userKeys.getPublicKey();
+ 2)byte[] privatekey = userKeys.getPrivateKey();
+ 
+ 
+ Keep in mind that return type of both methods is:
+ 	byte array (i.e byte[] ).
